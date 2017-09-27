@@ -1,0 +1,309 @@
+@import url(https://oss.maxcdn.com/libs/animate.css/2.0/animate.min.css);
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    background-size: cover;
+    font-family: sans-serif;
+    background-image: url(dna_gene_raggix.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 4px #000;
+    margin-top: 20px;
+}
+
+#box {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+    text-align: center;
+    -webkit-animation-name: bounceInDown;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: bounceInDown;
+    -moz-animation-fill-mode: both;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    animation-name: bounceInDown;
+    animation-fill-mode: both;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.well-color {
+  -webkit-font-smoothing: antialiased;
+    background: #000222;
+    background: -moz-linear-gradient(top,  #000222 0%, #4b637c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000222), color-stop(100%,#4b637c));
+    background: -webkit-linear-gradient(top,  #000222 0%,#4b637c 100%);
+    background: -o-linear-gradient(top,  #000222 0%,#4b637c 100%);
+    background: -ms-linear-gradient(top,  #000222 0%,#4b637c 100%);
+    background: linear-gradient(top,  #000222 0%,#4b637c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000222', endColorstr='#4b637c',GradientType=0 );
+  border: #000222;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 40px;
+
+}
+
+input, input[placeholder]{
+    text-align:center;
+}
+
+.modal-body {
+    background: #222222 url('1.jpg') no-repeat top center fixed;
+  background-size:100% 100%;
+  background-size: cover;
+}
+
+p {
+    color: orangered;
+    width: 90%;
+    line-height: 1.3em;
+    text-align: center;
+    align-content: center;
+    margin: inherit;
+}
+
+#box1 {
+    position: fixed;
+    width:100%;
+    height:100%;
+}
+
+.blurred-bg {
+    background-image: url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blurred-bg.tinted {
+    background-image: url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+    background-size: 100%;
+    background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+    background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+}
+.blurred-bg.shaded {
+    background-image: url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+    background-size: 100%;
+    background-image: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('genetics-dna-helix-model-dna-strand-digital-background-rotate-dna-helix-genetic-science-abstract-blurred-background_hqvsngp__F0005.png');
+}
+
+.box {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: -webkit-calc( 25% );
+    top: 28%;
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    transition: box-shadow .3s ease;
+}
+.box:active {
+    cursor: move;
+    -moz-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+}
+.box .content {
+    margin: auto;
+}
+
+h1, h2, a, p {
+    color: black;
+    font-weight: 100;
+}
+.tinted h1, .tinted h2, .tinted a, .tinted p {
+    color: black;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    font-size: 14px;
+}
+
+p {
+    margin: 20px;
+}
+p.related {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #444;
+}
+p.related a {
+    font-weight: 700;
+    text-decoration: none;
+}
+p.related a:hover {
+    text-decoration: underline;
+}
+
+.rotate{
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+}
+
+.rotate.down{
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+.query-item {
+    display: block;
+    height: 2.5em;
+    float: left;
+    position: relative;
+}
+
+.query-button {
+    line-height: 2.5em;
+    width: 2.8125em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.query-organism-select {
+    width: 21.75em;
+}
+
+.query-organism-select-item {
+    cursor: pointer;
+    height: 2em;
+    position: relative;
+    float: left;
+    width: 100%;
+    border-radius: .25em;
+}
+
+.query-organism-select-item:not(:first-child) {
+    border-top: 1px solid #555;
+}
+
+.query-organism-select-radio {
+    padding-left: .5em;
+}
+
+.query-organism-select-name, .query-organism-select-radio {
+    display: block;
+    line-height: 2em;
+    height: 2em;
+    float: left;
+}
+
+.query-organism-select-icon {
+    font-size: 2em;
+    display: inline-block;
+    height: 100%;
+    line-height: 1em;
+    width: 1.25em;
+    text-align: center;
+    float: left;
+}
+
+.select { 
+ display: block; 
+ padding: 5px 50px 5px 8px !important;
+ max-width: 100%; 
+ height: auto !important;
+ border: 1px solid #e3e3e3; 
+ border-radius: 3px; 
+ background: url(selectbox_arrow.png) right center no-repeat; 
+ background-color: #fff; 
+ color: #444444; 
+ font-size: 12px;
+ appearance: none; 
+ /* this is a must */ 
+ -webkit-appearance: none; 
+ -moz-appearance: none; 
+ align-self: center;
+ margin: 10px;
+} 
+
+ /* body select.select_box option */ 
+.select option{
+  padding: 0 4px;
+}
+
+
+/*** for the box containing the search box ***/
+
+.box{
+  position:fixed;
+  height:58%;
+  width:50%;
+  font-family:Helvetica;
+  color:#fff;
+  background:rgba(0,0,0,0.13);
+  padding:30px 0px;
+}
+
+/*** End of for the box containing the search box ***/
+
+
+textarea{
+    padding:5px;
+    width:250px;
+    font-size:14px;
+    margin:10px;
+    margin-left: 84.5px;
+    margin-top: 0.2em;
+    right: 20px;
+    display:block;
+    border-radius:0px;
+    resize: none;
+}
+
+button{
+    /*margin-top: 0em;*/
+    padding:5px;
+    height: 40px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE>
+
+<html>
+  <head>
+    <title>OneGene | Networks</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+
+    <script src="./js/cytoscape.js"></script>
+    <script src="./js/cytoscape.min.js"></script>
+    <script>
+        function myFunction() {
+            location.reload();
+        }
+    </script>
+
+    <!-- For loading external data files -->
+    <!--<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch"></script>-->
+
+
+    <!-- for testing with local version of cytoscape.js -->
+    <!--<script src="../cytoscape.js/build/cytoscape.js"></script>-->
+  </head>
+  <body>
+
+    <div id="cy"></div>
+
+    <!--<div id="loading">
+      <span class="fa fa-spinner fa-spin" aria-hidden="true"></span>
+    </div>-->
+
+    <div id="search-wrapper">
+      <input type="text" class="form-control" id="search" placeholder="&#xf002; Search" style="background: transparent; border-radius: 0px; border-color: #080808; color: yellow";>
+    </div>
+
+    <div id="info"></div>
+    <!-- Load appplication code at the end to ensure DOM is loaded -->
+
+    <div><button id="reset" class="btn btn-default" style="background: transparent; border-radius: 0px; border-color: #080808";><i class="fa fa-arrows-h"></i></button></div>
+
+    <button id="about" class="btn btn-default" style="background: transparent; border-radius: 0px; border-color: #080808";><i class="fa fa-info"></i></button>
+
+    <a href="../index.html"><button id="home" class="btn btn-default" style="background: transparent; border-radius: 0px; border-color: #080808";><i class="fa fa-home"></i></button></a>
+
+    <button id="refresh" class="btn btn-default" style="background: transparent; border-radius: 0px; border-color: #080808"; onclick="myFunction()"><i class="fa fa-refresh"></i></button>
+
+    <button id="dot" class="btn btn-default" style="background: transparent; border-radius: 0px; border-color: #080808";><i class="fa fa-bullseye" aria-hidden="true"></i></button>
+
+    <button id="random" class="btn btn-default" style="background: transparent; border-radius: 0px; border-color: #080808";><i class="fa fa-random" aria-hidden="true"></i></button>
+
+    <button id="cose" class="btn btn-default" style="background: transparent; border-radius: 0px; border-color: #080808";><i class="fa fa-star" aria-hidden="true"></i></button>
+
+    <!--<div id="about-content">
+      <p style="color: green">Developed with the help of <a target="_blank" href="http://js.cytoscape.org"><strong style="color: green">Cytoscape.js</strong><i class="fa fa-external-link"></i></a>.</p>
+
+      <p><a target="_blank" href="#"><strong style="color: green">Data reference</strong><i class="fa fa-external-link"></i></a></p>
+    </div>-->
+
+    <script src="./js/code.js"></script>
+
+  </body>
+</html>

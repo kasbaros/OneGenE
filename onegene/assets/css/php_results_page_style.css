@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+        body {
+            /*background-image: url(../img/backgrounds/dna-6.2.jpg);*/
+        }
+
+    .blurred-bg {
+        /*background-image: url();*/
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .blurred-bg.tinted {
+        background-image: url(../img/backgrounds/dna-6.2.jpg);
+        background-size: 100%;
+        background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/backgrounds/dna-6.2.jpg);
+        background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/backgrounds/dna-6.2.jpg);
+        background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/backgrounds/dna-6.2.jpg);
+    }
+
+    .blurred-bg.shaded {
+        background-image: url(../img/backgrounds/dna-6.2.jpg);
+        background-size: 100%;
+        background-image: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgrounds/dna-6.2.jpg);
+        background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgrounds/dna-6.2.jpg);
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgrounds/dna-6.2.jpg);
+    }
+
+    .box {
+        /*width: 500px;
+        height: 300px;
+        left: -webkit-calc(50% - 250px);*/
+        top: 20%;
+        /*position: absolute;*/
+        /*border-radius: 5px;*/
+        -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px;
+        text-align: center;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        /*display: flex;*/
+        transition: box-shadow .3s ease;
+    }
+
+    .box:active {
+        cursor: move;
+        -moz-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+        -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+    }
+
+    .box .content {
+        margin: auto;
+    }
+
+    h1, h2, a, p {
+        color: white;
+        font-weight: 100;
+    }
+
+    .tinted h1, .tinted h2, .tinted a, .tinted p {
+        color: black;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    p {
+        margin: 20px;
+    }
+
+    p.related {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #444;
+    }
+
+    p.related a {
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    p.related a:hover {
+        text-decoration: underline;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    textarea {
+    resize: none;
+    }
+
+    btn_1{
+
+    }
+
+            /** for the textarea search box **/
